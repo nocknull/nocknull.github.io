@@ -1,0 +1,112 @@
+@import url("../fonts/ClearSans-Bold.ttf");
+@import url("../fonts/ClearSans-Light.ttf");
+@import url("../fonts/ClearSans-Regular.ttf");
+@import url("../fonts/ClearSans-Thin.ttf");
+html, body, p {
+  height: 100%;
+  font-family: 'ClearSans-Regular', sans-serif;
+  letter-spacing: -0.03em; }
+
+.navbar {
+  font-family: 'ClearSans-Bold', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ClearSans-Bold', sans-serif; }
+
+section {
+  padding: 40px 0; }
+
+header {
+  color: #fff;
+  padding: 120px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: url("../img/bg.jpg") 50% no-repeat fixed;
+  background-size: cover; }
+
+.show-more {
+  margin-bottom: 0; }
+  .show-more a {
+    text-decoration: none;
+    color: #fff; }
+  .show-more a:hover {
+    color: #f4594e; }
+
+#about {
+  background-color: #0085c3;
+  background: #ef4723 fixed no-repeat;
+  min-height: 100%; }
+
+#about .title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #222; }
+
+#about .desc {
+  font-family: 'ClearSans-Thin', sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  opacity: 0.7; }
+
+#projects {
+  background-color: #7ab800;
+  min-height: 100%;
+  text-align: center; }
+  #projects h2 {
+    padding-top: 100px; }
+  #projects p {
+    font-size: 2em;
+    font-family: 'ClearSans-Light', sans-serif;
+    font-style: italic; }
+
+#notes {
+  background-color: #f2af00;
+  min-height: 100%;
+  text-align: center; }
+  #notes h2 {
+    padding-top: 100px; }
+  #notes p {
+    font-size: 2em;
+    font-family: 'ClearSans-Light', sans-serif;
+    font-style: italic; }
+
+.main-logo {
+  font-family: 'ClearSans-Bold', sans-serif;
+  font-size: 6em; }
+
+.main-logo.visible-xs {
+  font-size: 4em; }
+
+.motto {
+  font-family: 'ClearSans-Thin', sans-serif;
+  font-style: italic; }
+
+.member {
+  margin-bottom: 5px;
+  min-height: inherit;
+  text-align: center;
+  color: #222; }
+  .member p {
+    color: #fff;
+    opacity: 0.7; }
+  .member .list-container {
+    opacity: 1;
+    margin-top: 0.5em; }
+  .member h5 {
+    font-size: 2em;
+    margin-bottom: 2px; }
+  .member .list-inline {
+    margin: 0 auto; }
+  .member li a {
+    color: black; }
+
+.member-photo {
+  max-height: inherit; }
+  .member-photo img {
+    width: 100%;
+    margin: 0 auto; }
