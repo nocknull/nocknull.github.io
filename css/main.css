@@ -70,10 +70,13 @@ header {
   text-align: center; }
   #notes h2 {
     padding-top: 100px; }
-  #notes p {
+  #notes p, #notes li {
     font-size: 2em;
     font-family: 'ClearSans-Light', sans-serif;
     font-style: italic; }
+  #notes a {
+    text-decoration: none;
+  }
 
 .main-logo {
   font-family: 'ClearSans-Bold', sans-serif;
