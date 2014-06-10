@@ -1,3 +1,5 @@
-.saas-cache
-css/.sass-cache/**
+.saas-cache/*
+css/.sass-cache/
+css/
+config.codekit
 .DS_Store
